@@ -1,0 +1,227 @@
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+div {
+  color: blue;
+  font-size: 12px;
+}
+
+li {
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 15px;
+  width: 300px;
+
+  ;
+}
+
+.contenedor {
+    display: flex;
+   /* flex-direction: column; */
+    position: relative; 
+    top: 50%; 
+    left: 50%; 
+    
+  }
+
+   
+  
+  
+
+.contenedor_izquierda {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background: linear-gradient(180deg, #7755ff 0%, #6943ff 0.01%, #2f2ce9 100%);
+  border-radius: 32px;
+  width: 368px;
+  height: 512px;
+}
+
+.elemento_1 {
+  color: lightblue;
+  line-height: 23px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  margin-bottom: 10px;
+  padding: 44px;
+}
+.elemento_2 {
+  color: white;
+  width: 100px;
+  height: 99px;
+  border-radius: 100px;
+  padding: 40px;
+  text-align: center;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 72px;
+ line-height: 72px;
+  background: linear-gradient(
+    180deg,
+    #4d21c9 0%,
+    rgba(37, 33, 201, 0) 100%,
+    rgba(37, 33, 201, 0) 100%
+  );
+  display: block;
+
+}
+.nu100 {
+  color: lightblue;
+  width: 52px;
+ /height: 23px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  
+}
+
+.elemento_4 {
+
+  color: white;
+  width: 83px;
+  height: 100px;
+  font-style: normal;
+  font-weight: 800px;
+  font-size: 32px;
+  /* identical to box height */
+  text-align: center;
+
+}
+
+.elemento_5 {
+  color: lightblue;
+  width: 260px;
+  height: 69px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 25px;
+  text-align: center;
+}
+
+.contenedor_derecha {
+  background-color: white;
+}
+
+.elemento_6 {
+  color: #303b59;
+  width: 104px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31px;
+  height: 31px;
+  padding: 44px;
+}
+
+.elemento_7 {
+  color: red;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ff5555;
+  border-radius: 12px;
+  font-size: 18px;
+  margin-bottom: 10px;
+ 
+
+}
+.elemento_8 {
+  color: yellow;
+  font-size: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #ffb21e;
+  border-radius: 12px;
+
+  margin-bottom: 10px;
+}
+.elemento_9 {
+  color: #00bb8f;
+  font-size: 18px;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #00bb8f;
+  border-radius: 12px;
+
+  margin-bottom: 10px;
+}
+
+.elemento_10 {
+  color: #1125d6;
+  /* Blue (95% White) */
+  font-size: 18px;
+
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.95),
+      rgba(255, 255, 255, 0.95)
+    ),
+    #1125d6;
+  border-radius: 12px;
+
+  margin-bottom: 40px;
+}
+
+.color1 {
+  color: #303b59;
+  padding-left: 129px;
+  
+
+}
+.gris1 {
+  color: grey;
+  
+}
+
+.color2 {
+  color: #303b59;
+  padding-left: 125px;
+
+}
+.gris2 {
+  color: gray;
+}
+.color3 {
+  color: #303b59;
+  padding-left: 137px;
+}
+.gris3 {
+  color: gray;
+}
+.color4 {
+  color: #303b59;
+  padding-left: 135px;
+}
+.gris4 {
+  color: gray;
+}
+
+button {
+  color: white;
+ /* font-family: "Hanken Grotesk";*/
+  width: 270px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23px;
+  text-align: center;
+  background: #303b59;
+  border-radius: 128px;
+  margin-left: 60px;
+  padding: 5px;
+}
